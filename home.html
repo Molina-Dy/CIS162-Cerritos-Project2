@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    <title>49er Fan Page</title>
+    <link href="stylinghome.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="fathcrop.jpg" alt="Faithful Then Faithful Now">
+        <nav class="horizontalNavigation">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="background.html">Background</a></li>
+                <li><a href="currentplayers.html">Current Players</a></li>
+                <li><a href="superbowlmvps.html">Superbowl MVPs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <p>Welcome to the 49er fan page! This page will highlight the 49er football team and give information about the team and its members. Please enjoy!</p>
+    
+    <blockquote><q>To me it was never about what I accomplished on the football field, its about the way I played the game.</q>-Jerry Rice</blockquote>
+    
+    <blockquote><q>Yeah, it's nice to look up to people, but the more you try to be sombody else, the less you are of yourself.</q> -Joe Montana</blockquote>
+    
+    <blockquote><q>If you can believe it, the mind can achieve it.</q> -Ronnie Lott</blockquote>
+    
+    
+    <form id ="giveaway">
+        <fieldset id="give">
+            <legend>Submit your Fan Pictures Here for a chance to win tickets!!</legend>
+            
+            First Name 
+            <input name="fname" id="fname" type="text">
+            
+            Last Name
+            <input name="lname" id="lname" type="text">
+            
+            Email
+            <input name="email" id="email" type="text">
+            <br>
+ 
+            Social Media Name
+            <input name="uname" id="uname" type="text">
+            
+            Link to picture
+            <input name="link" id="link" type="text">
+            
+            <label>Social Media Handle</label>
+            <select name="mediatype" id="media">
+
+                <option value="option1">Facebook</option>
+                <option value="option2">Instagram</option>
+                <option value="option3">Tik Tok</option>
+                <option value="option4">Snapchat</option>
+                
+            </select>
+            
+            <label>Do you want your full name displayed?</label>
+            <fieldset class="optGroup">
+                <label for="fYes">Yes</label>
+                <input name="dFull" id="fYes" value="yes" type="radio">
+                <label for="fNo">No</label>
+                <input name="dFull" id="fNo" value="no" type="radio">
+            </fieldset>
+            
+            <label>Do you want your picture posted on this website?</label>
+            <fieldset class="optGroup">
+                <label for="wYes">Yes</label>
+                <input name="wPost" id="wYes" value="yes" type="radio">
+                <label for="wNo">No</label>
+                <input name="wPost" id="wNo" value="no" type="radio">
+            </fieldset>
+        </fieldset>
+        <div id="buttons">
+            <input type="submit" value="Submit Picture" />
+            <input type="reset" value="Cancel" />
+        </div>
+    </form>
+    <footer>
+    </footer>
+</body>
+</html>

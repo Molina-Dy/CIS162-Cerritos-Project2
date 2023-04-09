@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    <title>49er Fan Page</title>
+    <link href="stylinghome.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="fathcrop.jpg" alt="Faithful Then Faithful Now">
+        <nav class="horizontalNavigation">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="background.html">Background</a></li>
+                <li><a href="currentplayers.html">Current Players</a></li>
+                <li><a href="#">Superbowl MVPs</a></li>
+            </ul>
+        </nav>
+    </header>
